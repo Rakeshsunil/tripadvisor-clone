@@ -1,0 +1,318 @@
+* {
+    font-family: poppins;
+}
+body {
+    height: 100%;
+    margin: 0%;
+    ;
+}
+.head {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 20px;
+}
+.menu {
+    display: flex;
+    margin-left: 92px;
+}
+.ul1 {
+    display: flex;
+}
+.ul1 li {
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.sign-inlang {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 199px;
+}
+.sign-inlang button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.sign-in {
+    background-color: black;
+    color: white;
+    padding: 1px 16px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.sign-in:hover {
+    background-color: rgb(60, 60, 60);
+}
+.lang {
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.whereto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    font-size: 25px;
+}
+.catagories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60px;
+    font-size: 16px;
+}
+.search-all {
+    text-decoration: underline;
+}
+.restaurants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.searchbar {
+    position: relative;
+    z-index: -1;
+    border-radius: 25px;
+    width: 750px;
+    height: 50px;
+    box-shadow: 3px 3px 10px grey;
+    border: none;
+}
+.searchbar::placeholder {
+    padding-left: 40px;
+}
+.searchicon {
+    position: absolute;
+
+    margin-left: -700px;
+}
+.searchbutton {
+    position: absolute;
+    background-color: #34e0a1;
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 650px;
+}
+.searchbutton:hover {
+    background-color: #68f2c0;
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.img1 {
+    border-radius: 25px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-top: 60px;
+    font-size: 35px;
+    color: white;
+    width: 480px;
+    font-size: 25px;
+    margin-right: 400px;
+    margin-top: -40px;
+}
+.h4 {
+    margin-top: -70px;
+}
+
+.button1 {
+    border-radius: 25px;
+    width: 80px;
+    height: 50px;
+    background-color: rgb(227, 188, 248);
+    border: none;
+}
+.button1:hover {
+    background-color: rgb(114, 45, 151);
+}
+.image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    border-radius: 25px;
+    margin-top: 50px;
+
+    height: 197px;
+    width: 1160px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.img2 {
+    border-radius: 10px;
+    margin-left: 20px;
+    transform: rotate(-3deg);
+}
+.singapore {
+    background-color: rgb(223, 222, 222);
+    color: grey;
+    font-size: smaller;
+    width: 298px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.content2 {
+    margin-left: 80px;
+}
+.button2 {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    margin-top: 130px;
+    margin-left: 950px;
+}
+.button2:hover {
+    background-color: rgb(210, 207, 207);
+}
+.trip24 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 68px;
+    margin-left: 60px;
+    padding-inline: 120px;
+}
+.caption {
+    border-radius: 15px;
+}
+.caption:hover {
+    opacity: 0.8;
+}
+.caption1 {
+    border-radius: 15px;
+}
+.caption1:hover {
+    opacity: 0.8;
+}
+.caption2 {
+    position: relative;
+    border-radius: 15px;
+}
+.caption2:hover {
+    opacity: 0.8;
+}
+
+.caption3 {
+    border-radius: 15px;
+}
+.caption3:hover {
+    opacity: 0.8;
+}
+.caption4 {
+    border-radius: 15px;
+}
+.caption4:hover {
+    opacity: 0.8;
+}
+.caption5 {
+    border-radius: 15px;
+}
+.button4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1150px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+.final {
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+.main-1 {
+    display: flex;
+    text-decoration: NONE;
+}
+ul {
+    list-style: none;
+}
+.foot4 {
+    padding-left: 300px;
+}
+.p1 {
+    margin-left: 75px;
+    margin-top: -60px;
+    font-size: smaller;
+}
+footer {
+    background-color: rgb(240, 239, 239);
+    height: 400px;
+    overflow: hidden;
+;
+}
+.ul3 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.ul3 li {
+    display: flex;
+    text-decoration: underline;
+    margin: 10px;
+    margin-left: 25px;
+}
+.p2 {
+    font-size: 13px;
+    margin: 300px;
+    margin-top: -2px;
+    margin-left: 20px;
+}
+.final1{
+    margin-left: 15px;
+}
+.main2 {
+    margin-left: auto;
+}
+.finalbuttons{ margin-left: 1190px;
+margin-top: -400px;
+width: 400px;
+}
+.finalbutton{
+    border-radius:6px;
+    width: 160px;
+    height: 28px;
+background-color: white;
+}
